@@ -1,0 +1,16 @@
+body {
+  background: #104B6B;
+}
+
+.container {
+  background: white;
+  margin: 0 auto;
+  padding: 2em;
+  max-width: 768px;
+}
+
+span {
+  border-bottom: 1px dashed blue;
+  color: blue;
+  cursor: pointer;
+}
