@@ -1,77 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link href="css/jquery.cardtips.min.css" rel="stylesheet" type="text/css">
   <style type="text/css">
     .cardtip-wrapper {
-      padding: 0.5em 0;
-      position: absolute;
-
       top: 40%;
       left: 40%;
-    }
-    .cardtip-content {
-      background: white;
-      border-radius: 3px;
-      box-shadow: 1px 1px 2px 0 #CCCCCC;
-      padding: 1em;
-    }
-    .cardtip-content:before {
-      background: transparent;
-      content: '';
-      position: absolute;
-    }
-    .cardtip-wrapper.north .cardtip-content:before {
-      border-bottom: 1em solid transparent;
-      bottom: 0;
-
-      border-top: none !important;
-      top: auto !important;
-    }
-    .cardtip-wrapper.south .cardtip-content:before {
-      border-top: 1em solid transparent;
-      top: 0;
-
-      border-bottom: none !important;
-      bottom: auto !important;
-    }
-    .cardtip-wrapper.east .cardtip-content:before {
-      border-left: 1em solid white;
-      left: 0;
-
-      border-right: none !important;
-      right: auto !important;
-    }
-    .cardtip-wrapper.west .cardtip-content:before {
-      border-right: 1em solid white;
-      right: 0;
-
-      border-left: none !important;
-      left: auto !important;
-    }
-    .cardtip-wrapper.center .cardtip-content:before {
-      left: 50% !important;
-      margin-left: -1em;
-
-      right: auto !important;
-    }
-    .cardtip-wrapper.north.center .cardtip-content:before {
-      border-top: 1em solid white !important;
-      border-right: 1em solid transparent;
-      border-left: 1em solid transparent;
-
-      border-bottom: 0 !important;
-    }
-    .cardtip-wrapper.south.center .cardtip-content:before {
-      border-right: 1em solid transparent;
-      border-bottom: 1em solid white !important;
-      border-left: 1em solid transparent;
-
-      border-top: 0 !important;
     }
   </style>
 </head>
 <body style="background:#104B6B;">
-  <div class="cardtip-wrapper south center">
+  <div class="cardtip-wrapper north east">
     <div class="cardtip-content">
       <p>Some HTML can go here.<br>Not much to do right now.</p>
     </div>
