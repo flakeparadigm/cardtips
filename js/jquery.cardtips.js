@@ -100,5 +100,6 @@
 
     // allow chaining
     return this;
-  }
+  } // main function
+
 })(jQuery, window, document);
